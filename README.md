@@ -76,6 +76,11 @@ def load_model(model_name="gpt2-large"):
     return model, tokenizer
 ~~~
 * **generate_combined_text(prompt, model, tokenizer, max_length=300)**: Generates text using the GPT-2 model based on the input prompt.
+```python
+# Function to generate text from the GPT-2 model
+def generate_combined_text(prompt, model, tokenizer, max_length=300):
+    generated_texts = []
+```
 #### Usage:
 1. Load the GPT-2 model and tokenizer using **load_model()**.
   
